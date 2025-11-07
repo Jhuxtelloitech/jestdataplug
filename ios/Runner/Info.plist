@@ -5,17 +5,33 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Jestvote App</string>
+	<string>JestDataPlug</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.jhuxtello.dataplug</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>jestvote_app</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+
+
+	<key>NSCameraUsageDescription</key>
+<string>Camera access is required for file uploads and identity verification.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Photo library access is required to upload files.</string>
+
+<key>NSMicrophoneUsageDescription</key>
+<string>Microphone access is required for audio recording features.</string>
+
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key><true/>
+  <key>NSAllowsArbitraryLoadsInWebContent</key><true/>
+</dict>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
